@@ -1,0 +1,273 @@
+
+/**** portfolio colors ****/
+
+:root {
+  --main-color:#d9d9d9;
+}
+
+/**** portfolio typeography ****/
+
+* {
+  font-family: 'Space Grotesk' , sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+  color: var(--main-color);
+}
+
+h2 {
+  font-size: 42px;
+  color: #fff;
+}
+
+p {
+  color: #fff;
+  font-size: 16px;
+}
+
+/***** portfolio components *****/
+
+a {
+  color: var(--main-color);
+  text-decoration: none;
+  text-shadow: 0px 0px 6px #fff;
+}
+
+.link {
+  color: #242424;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  margin-left: 0px;
+  list-style: none;
+}
+
+
+
+
+/**** portfolio body ****/
+
+body {
+  margin: 0;
+  background-color: #151515;
+}
+
+
+/**** portfolio header ****/
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 15px;
+}
+
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+/**** portfolio main ****/
+
+/** hero container **/
+
+#hero-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 15px;
+}
+
+.hero-content h2 {
+  color: #fff;
+}
+
+/** technical skills **/
+
+#technical-skills {
+  margin: 0px;
+  padding: 120px 16px;
+  background-color: #4682bb;
+}
+
+.skills-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.html5-icon,
+.css-icon,
+.Github_light-icon,
+.javascript-icon {
+  width: 50px;
+  height: auto;
+}
+
+/** About Me container **/
+
+.about-me-content {
+  padding: 100px 16px;
+  line-height: 20px;
+}
+/*** projects container ***/
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 36px 10px;
+  background-color: #4682bb;
+}
+
+.projects .project-card {
+  border-radius: 20px;
+  background-color: #fff;
+  width: 100%;
+  height: 180px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 8px 19px -16px black;
+}
+
+
+.project-card:hover .project-content {
+  bottom: 0;
+}
+
+
+.project-content {
+  width: 334px;
+  position: absolute;
+  background: #d9d9d9;
+  border-radius: 20px;
+  bottom: 400px;
+  transition: 2s;
+}
+
+.project-content h4 {
+  margin:10px;
+  color: #242424;
+  padding-left: 15px;
+  font-size: 19px;
+}
+
+.project-content p {
+  color: #242424;
+  padding-left: 15px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.Tech {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tech-icon {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  width: 40px;
+}
+
+.tech-content {
+  display: flex;
+  gap: 10px;
+}
+
+.project-img {
+  border-radius: 20px;
+  width: 100%;
+  height: 180px;
+}
+
+
+/***** Contact section ******/
+
+#contact {
+  display: flex;
+}
+
+.contact-content  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #242424;
+  padding: 50px 16px;
+}
+
+.contact-content h2 {
+  color: aliceblue;
+}
+
+.contact-content > p {
+  font-size: 13px;
+} 
+
+form {
+  margin-left: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+
+::placeholder {
+  color: #d9d9d9;
+}
+
+input {
+  outline: #151515;
+  padding-left: 16px;
+  margin-bottom: 5px;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  background-color: #242424;
+  width: 80%;
+  height: 43px;
+}
+
+textarea {
+  padding:16px 0px 0px 16px;
+  color: #151515;
+  border-radius: 6px;
+  border: 2px solid #fff;
+  background-color: #242424;
+  width: 80%;
+  height: auto;
+}
+
+/***** portfolio footer ******/
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  font-size: 32px;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+
+}
+
+.fa-linkedin,
+.fa-github {
+  font-size: 25px;
+  color: #fff;
+}
+
