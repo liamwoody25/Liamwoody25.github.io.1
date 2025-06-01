@@ -103,6 +103,13 @@ nav {
   background-color: #4682bb;
 }
 
+
+
+.skills-info {
+  text-align: center;
+}
+
+
 .skills-content {
   display: flex;
   flex-wrap: wrap;
@@ -127,7 +134,7 @@ nav {
 }
 /*** projects container ***/
 
-.projects {
+.my-projects {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -136,8 +143,15 @@ nav {
   background-color: #4682bb;
 }
 
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+
 .projects .project-card {
   border-radius: 20px;
+  width: 95%;
+  height: 180px;
   position: relative;
   overflow: hidden;
   box-shadow: 0px 8px 19px -16px black;
@@ -278,3 +292,112 @@ footer {
   color: #fff;
 }
 
+/****** media query ******/
+
+@media screen and (min-width:1440px) {
+
+  h2 {
+    font-size: 55px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  #hero-container {
+
+    display: flex;
+    flex-direction: row;
+  }
+
+  .hero-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hero-content h2 {
+    width: 65%;
+    font-size: 55px;
+  }
+
+  .hero-content p {
+    font-size: 20px;
+  }
+
+
+  #technical-skills {
+    padding:165px 16px ;
+  }
+
+  .skills-info h2 {
+    font-size: 55px;
+  }
+
+  .skills-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+
+  .about-me-content {
+    padding:110px ;
+  }
+
+  .projects {
+    padding: 25px 0px 0px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: left;
+    flex-direction: row-reverse;
+  }
+  .my-projects {
+    padding: 110px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    flex-direction: row-reverse;
+  }
+
+  .projects .project-card {
+    width: 490px;
+    height:288px ;
+    display: flex;
+  }
+
+  .project-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .project-info h2 {
+    font-size: 60px;
+  }
+
+  .project-info p {
+    font-size: 25px;
+  }
+  .project-content {
+    position: relative;
+  }
+
+  .project-img {
+    width: 100%;
+    height: 290px;
+  }
+
+  .contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .contact-content > p {
+    font-size: 20px;
+  }
+}
