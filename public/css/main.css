@@ -134,19 +134,17 @@ nav {
 }
 /*** projects container ***/
 
-.my-projects {
+.projects {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+  flex-direction: column;
   padding: 36px 10px;
   background-color: #4682bb;
 }
 
-.projects {
-  display: flex;
-  flex-direction: column;
-}
+
 
 .projects .project-card {
   border-radius: 20px;
@@ -154,7 +152,7 @@ nav {
   height: 180px;
   position: relative;
   overflow: hidden;
-  box-shadow: 0px 8px 19px -16px black;
+  box-shadow: 0px 8px 19px -10px black;
 }
 
 
@@ -329,10 +327,11 @@ footer {
 
 
   #technical-skills {
-    padding:165px 16px ;
+    padding:100px 110px ;
   }
 
   .skills-info h2 {
+    text-align: left;
     font-size: 55px;
   }
 
@@ -340,6 +339,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-evenly;
   }
   
 
@@ -348,24 +348,17 @@ footer {
   }
 
   .projects {
-    padding: 25px 0px 0px;
+    padding: 25px 100px 35px;
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
     justify-content: left;
     flex-direction: row-reverse;
   }
-  .my-projects {
-    padding: 110px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-    flex-direction: row-reverse;
-  }
-
+ 
   .projects .project-card {
-    width: 490px;
-    height:288px ;
+    width: 505px;
+    height:290px ;
     display: flex;
   }
 
