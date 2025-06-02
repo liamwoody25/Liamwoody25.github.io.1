@@ -235,6 +235,7 @@ nav {
 }
 
 .contact-content > p {
+  text-align: center;
   font-size: 13px;
 } 
 
@@ -277,6 +278,7 @@ footer {
   display: flex;
   justify-content: center;
 }
+
 
 .logo {
   font-size: 32px;
