@@ -332,7 +332,7 @@ footer {
     font-size: 20px;
   }
 
-
+/***** technical skills ******/
   #technical-skills {
     padding:100px 110px ;
   }
@@ -353,7 +353,7 @@ footer {
   .about-me-content {
     padding:110px ;
   }
-
+/****** portfolio projects ******/
   #projects {
     padding: 25px 100px 35px;
     display: flex;
@@ -396,6 +396,7 @@ footer {
     height: 290px;
   }
 
+  /****** contatct section ******/
   #contact {
     display: flex;
     justify-content: center;
