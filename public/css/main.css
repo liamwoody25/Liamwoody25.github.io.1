@@ -134,7 +134,7 @@ nav {
 }
 /*** projects container ***/
 
-.projects {
+#projects {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -279,7 +279,6 @@ footer {
   justify-content: center;
 }
 
-
 .logo {
   font-size: 32px;
 }
@@ -309,6 +308,7 @@ footer {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+    align-items: baseline;
   }
 
   #hero-container {
@@ -354,7 +354,7 @@ footer {
     padding:110px ;
   }
 
-  .projects {
+  #projects {
     padding: 25px 100px 35px;
     display: flex;
     gap: 30px;
@@ -397,10 +397,16 @@ footer {
     height: 290px;
   }
 
+  #contact {
+    display: flex;
+    justify-content: center;
+  }
   .contact-content {
+    padding: 25px 0px 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+     background-color: #242424;
     gap: 20px;
   }
 
