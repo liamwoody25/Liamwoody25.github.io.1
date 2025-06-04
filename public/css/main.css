@@ -154,8 +154,9 @@ nav {
 .project-cards .project-card {
   border-radius: 20px;
   width: 354px;
-  height: 180px;
+  height: 200px;
   position: relative;
+  background-color: dodgerblue;
   overflow: hidden;
   box-shadow: 0px 8px 19px -10px black;
 }
@@ -164,6 +165,7 @@ nav {
 .project-card:hover .project-content {
   bottom: 0;
 }
+
 
 
 .project-content {
@@ -368,6 +370,8 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
   }
+
+  
  
   .project-cards .project-card {
     width: 505px;
@@ -387,6 +391,7 @@ footer {
   .project-info p {
     font-size: 25px;
   }
+  
   .project-content {
     position: relative;
   }
