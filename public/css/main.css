@@ -357,13 +357,14 @@ footer {
   .project-cards {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
   }
 
   
  
   .project-cards .project-card {
-    width: 407px;
+    width: 500px;
     height:290px ;
     display: flex;
   }
