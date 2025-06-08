@@ -283,6 +283,7 @@ textarea {
 
 footer {
   display: flex;
+  text-align: center;
   justify-content: center;
 }
 
@@ -298,7 +299,8 @@ footer {
 }
 
 .fa-linkedin,
-.fa-github {
+.fa-github,
+.fa-discord {
   font-size: 25px;
   color: #fff;
 }
