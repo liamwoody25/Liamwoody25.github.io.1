@@ -114,7 +114,7 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  gap: 30px;
+  gap: 50px;
 }
 
 .html5-icon,
@@ -260,6 +260,7 @@ form {
 
 input {
   outline: #151515;
+  color: #fff;
   padding-left: 16px;
   margin-bottom: 5px;
   border: 2px solid #fff;
@@ -271,7 +272,7 @@ input {
 
 textarea {
   padding:16px 0px 0px 16px;
-  color: #151515;
+  color: #fff;
   border-radius: 6px;
   border: 2px solid #fff;
   background-color: #242424;
