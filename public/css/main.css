@@ -307,7 +307,7 @@ footer {
 
 /****** media query ******/
 
-@media screen and (min-width:1440px) {
+@media screen and  (min-width:1440px) {
 
   h2 {
     font-size: 55px;
@@ -320,8 +320,14 @@ footer {
     align-items: baseline;
   }
 
-  #hero-container {
+  .nav-bar {
+    display: flex;
+    gap: 30px;
+  }
+  /*** hero-section ***/
 
+  #hero-container {
+    padding: 10px 0px 108px;
     display: flex;
     flex-direction: row;
   }
@@ -342,8 +348,9 @@ footer {
   }
 
 /***** technical skills ******/
+
   #technical-skills {
-    padding:100px 110px ;
+    padding:51px 110px ;
   }
 
   .skills-info h2 {
@@ -357,10 +364,14 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
   }
-  
+
 
   .about-me-content {
     padding:110px ;
+  }
+
+  .about-me-content p {
+    width: 65%;
   }
 /****** portfolio projects ******/
   #projects {
