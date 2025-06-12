@@ -307,6 +307,118 @@ footer {
 
 /****** media query ******/
 
+@media screen and (min-width:768px){
+
+  h2 {
+    font-size: 40px;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  /*** hero section ***/
+  
+  #hero-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0px 72px;
+    margin: 0px 0px 72px;
+  }
+
+  .hero-content {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+
+  .hero-content h2 {
+    width: 80%;
+  }
+
+  /**** technical skills ****/
+
+  #technical-skills {
+    padding: 40px;
+  }
+
+  .skills-content {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .skills-info {
+    text-align: left;
+    font-size: 40px;
+  }
+
+  .about-me-content {
+    padding: 60px;
+  }
+
+  /***** projects section *****/
+
+  #projects {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .project-cards .project-card {
+    width: 300px;
+  }
+
+  .project-card:hover .project-content {
+
+  }
+
+  .project-content {
+    top: 331px;
+  }
+
+  .project-content p {
+    font-size: 13px;
+  }
+
+  .project-img {
+    width: 300px;
+    object-fit: cover;
+  }
+
+  .Tech {
+    display: flex;
+  }
+
+  .tech-icon {
+    width: 40px;
+  }
+  .tech-content {
+    display: flex;
+  }
+}
+
+
+
+
+
+
 @media screen and  (min-width:1440px) {
 
   h2 {
