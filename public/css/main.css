@@ -416,7 +416,13 @@ footer {
   .tech-content {
     display: flex;
   }
+
+  .contact-content {
+    padding: 100px;
+  }
 }
+
+
 
 
 
@@ -493,7 +499,7 @@ footer {
   }
 /****** portfolio projects ******/
   #projects {
-    padding: 25px 100px 35px;
+    padding: 25px 100px 100px;
     display: flex;
     gap: 30px;
     justify-content: left;
@@ -504,6 +510,7 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 30px;
     justify-content: center;
   }
 
@@ -557,7 +564,7 @@ footer {
  
   }
   .contact-content {
-    padding: 25px 0px 0px;
+    padding: 75px 0px 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -588,5 +595,7 @@ footer {
     gap: 25px;
     justify-content: space-around;
   }
+
+
 
 }
