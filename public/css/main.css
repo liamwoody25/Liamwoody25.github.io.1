@@ -443,6 +443,7 @@ footer {
   h2 {
     font-size: 55px;
   }
+
   
   header {
     display: flex;
@@ -499,7 +500,7 @@ footer {
 
 
   .about-me-content {
-    padding:110px ;
+    padding:130px ;
   }
 
   .about-me-content p {
@@ -550,7 +551,7 @@ footer {
   }
   
   .project-content .link {
-    font-size: 13px;
+    font-size: 21px;
   }
 
   .project-content p {
