@@ -347,6 +347,7 @@ footer {
 
   .hero-content h2 {
     width: 80%;
+    margin-top: 10px;
   }
 
   /**** technical skills ****/
@@ -372,13 +373,13 @@ footer {
   }
 
   .about-me-content p {
-    line-height: 38px;
+    line-height: 30px;
   }
 
   /***** projects section *****/
 
   #projects {
-    padding: 50px;
+    padding: 50px 40px;
     display: flex;
     flex-direction: column;
   }
@@ -390,7 +391,7 @@ footer {
   }
 
   .project-cards .project-card {
-    width: 324px;
+    width: 334px;
   }
 
   .project-card:hover .project-content {
@@ -501,7 +502,7 @@ footer {
 
 
   .about-me-content {
-    padding:130px ;
+    padding:130px 100px ;
   }
 
   .about-me-content p {
