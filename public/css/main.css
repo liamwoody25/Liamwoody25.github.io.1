@@ -520,12 +520,12 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;
+    gap: 50px;
+    justify-content: space-evenly;
   }
 
   .project-cards .project-card {
-    width: 500px;
+    width: 535px;
     height:332px ;
     display: flex;
   }
