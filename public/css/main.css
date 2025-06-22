@@ -473,6 +473,7 @@ footer {
   .hero-content h2 {
     width: 65%;
     font-size: 55px;
+    margin-top: 5px;
   }
 
   .hero-content p {
@@ -504,12 +505,11 @@ footer {
   }
 
   .about-me-content p {
-    width: 65%;
     line-height: 35px;
   }
 /****** portfolio projects ******/
   #projects {
-    padding: 25px 100px 100px;
+    padding: 25px 100px 130px;
     display: flex;
     gap: 30px;
     justify-content: left;
