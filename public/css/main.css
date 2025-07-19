@@ -71,14 +71,16 @@ header {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 15px;
+  margin: 15px 40px;
 }
-
 
 nav {
   display: flex;
   gap: 20px;
 }
+
+/**** portfolio header ****/
+
 
 /**** portfolio main ****/
 
@@ -95,6 +97,8 @@ nav {
   color: #fff;
 }
 
+/** hero container **/
+
 /** technical skills **/
 
 #technical-skills {
@@ -103,12 +107,9 @@ nav {
   background-color: #4682bb;
 }
 
-
-
 .skills-info {
   text-align: center;
 }
-
 
 .skills-content {
   display: flex;
@@ -127,15 +128,21 @@ nav {
   height: auto;
 }
 
+/** technical skills **/
+
+
 /** About Me container **/
 
 .about-me-content {
   padding: 100px 16px;
   line-height: 20px;
 }
+
+/** About Me container **/
+
 /*** projects container ***/
 
-#projects {
+#Projects {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -224,6 +231,8 @@ nav {
   height: 245px;
 }
 
+/*** projects container ***/
+
 
 /***** Contact section ******/
 
@@ -283,6 +292,9 @@ textarea {
   height: auto;
 }
 
+/***** Contact section ******/
+
+
 /***** portfolio footer ******/
 
 footer {
@@ -309,6 +321,8 @@ footer {
   color: #fff;
 }
 
+/***** portfolio footer ******/
+
 /****** media query ******/
 
 @media screen and (min-width:768px){
@@ -320,7 +334,7 @@ footer {
   header {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .nav-bar {
@@ -378,7 +392,7 @@ footer {
 
   /***** projects section *****/
 
-  #projects {
+  #Projects {
     padding: 50px 40px;
     display: flex;
     flex-direction: column;
@@ -427,15 +441,7 @@ footer {
     display: flex;
     justify-content: center;
   }
-
-
-
 }
-
-
-
-
-
 
 
 
@@ -448,7 +454,7 @@ footer {
   
   header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
     align-items: baseline;
   }
@@ -509,7 +515,7 @@ footer {
     line-height: 35px;
   }
 /****** portfolio projects ******/
-  #projects {
+  #Projects {
     padding: 25px 100px 130px;
     display: flex;
     gap: 30px;
@@ -521,7 +527,7 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 30px;
     justify-content: space-evenly;
   }
 
