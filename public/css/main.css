@@ -194,13 +194,13 @@ nav {
 .project-content h3 {
   margin:10px;
   color: royalblue;
-  padding-left: 15px;
   font-size: 20px;
 }
 
 .project-content p {
   color: #4682bb;
   padding-left: 15px;
+  padding-right: 15px;
   font-size: 13px;
   line-height: 20px;
   margin: 0;
@@ -257,6 +257,7 @@ nav {
   font-size: 13px;
   margin-top: 20px;
 } 
+
 
 form {
   margin-left: 80px;
