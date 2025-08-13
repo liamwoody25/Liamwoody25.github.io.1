@@ -186,8 +186,8 @@ nav {
   display: flex;
   flex-wrap: wrap;
   position:absolute;
-   transition: 2s;
-   backdrop-filter: blur(10px);
+  transition: 2s;
+  backdrop-filter: blur(10px);
   top: 250px;
 }
 
@@ -226,6 +226,7 @@ nav {
 }
 
 .project-img {
+  object-fit: fill;
   width: 100%;
   border-radius: 20px;
   height: 245px;
