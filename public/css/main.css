@@ -45,7 +45,7 @@ a {
   color: #242424;
   text-align: end;
   justify-content: center;
-  font-size: 15px;
+  font-size: 16px;
   text-decoration: underline;
 }
 
@@ -161,6 +161,12 @@ nav {
   flex-direction: column;
   align-items: center;
   gap: 20px;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
 .project-cards .project-card {
@@ -490,7 +496,10 @@ footer {
     line-height: 50px;
   }
 
-/***** technical skills ******/
+   /*** hero-section ***/
+
+
+  /***** technical skills ******/
 
   #technical-skills {
     padding:51px 110px ;
@@ -531,6 +540,7 @@ footer {
     flex-wrap: wrap;
     gap: 30px;
     justify-content: space-evenly;
+    margin-top: 20px;
   }
 
   .project-cards .project-card {
@@ -546,11 +556,12 @@ footer {
 
   .project-info h2 {
     font-size: 60px;
+    margin-bottom: 20px;
   }
 
   .project-info p {
     color: aliceblue;
-    font-size: 28px;
+    font-size: 20px;
   }
   
   .project-content {
@@ -560,7 +571,7 @@ footer {
   }
   
   .project-content .link {
-    font-size: 21px;
+    font-size: 16px;
   }
 
   .project-content p {
