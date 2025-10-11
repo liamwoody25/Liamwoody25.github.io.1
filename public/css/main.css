@@ -35,6 +35,52 @@ p {
 
 /***** portfolio components *****/
 
+.ham-burger {
+  width: 60px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  position: relative;
+  bottom: 73px;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.burger-bar {
+  position: absolute;
+  width: 60%;
+  height: 5px;
+  background-color: #4682bb;
+  border-radius: 25px;
+  left: 39px;
+  bottom: 27px;
+  transform: translate(-50%, -50%);
+  transition: transform .9s, opacity .9s, top .6s;
+}
+
+.bar-center {
+  top: 7px;
+}
+
+.bar-bottom {
+  top: 29px;
+}
+
+.ham-burger.active .bar-top {
+  transform: translate(-50%, -50%) rotate(-315deg);
+  top: 28px;
+}
+
+.ham-burger.active .bar-center {
+  opacity: 0;
+}
+
+.ham-burger.active .bar-bottom {
+  transform: translate(-50%, -50%) rotate(-225deg);
+  top: 28px;
+}
+
+
 a {
   color: var(--main-color);
   text-decoration: none;
@@ -69,13 +115,31 @@ body {
 
 header {
   display: flex;
-  align-items: center;
+  align-items: end;
   flex-direction: column;
   margin: 15px 40px;
+}
+.left-screen-menu {
+  background-color: lightskyblue;
+  display: flex;
+  align-items: center;
+  width: 125px;
+  height: 580px;
+  position: fixed;
+  left: -135px;
+  top: 0;
+  transition-property: left;
+  transition-duration: .9s;
+  transition-timing-function: ease-in-out;
+}
+
+.left-screen-menu.active {
+  left: 0;
 }
 
 nav {
   display: flex;
+  flex-direction: column;
   gap: 20px;
 }
 
