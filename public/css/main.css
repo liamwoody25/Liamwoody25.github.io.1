@@ -399,6 +399,41 @@ footer {
 
 @media screen and (min-width:768px){
 
+  .burger-bar {
+  display: none;
+  position: absolute;
+  width: 60%;
+  height: 5px;
+  background-color: #4682bb;
+  border-radius: 25px;
+  left: 39px;
+  bottom: 27px;
+  transform: translate(-50%, -50%);
+  transition: transform .9s, opacity .9s, top .6s;
+}
+
+.bar-center {
+  top: 7px;
+}
+
+.bar-bottom {
+  top: 29px;
+}
+
+.ham-burger.active .bar-top {
+  transform: translate(-50%, -50%) rotate(-315deg);
+  top: 28px;
+}
+
+.ham-burger.active .bar-center {
+  opacity: 0;
+}
+
+.ham-burger.active .bar-bottom {
+  transform: translate(-50%, -50%) rotate(-225deg);
+  top: 28px;
+}
+
   h2 {
     font-size: 40px;
   }
