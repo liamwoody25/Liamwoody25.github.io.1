@@ -44,6 +44,7 @@ p {
   bottom: 73px;
   cursor: pointer;
   padding: 15px;
+  left: 22px;
 }
 
 .burger-bar {
@@ -82,7 +83,7 @@ p {
 
 
 a {
-  color: var(--main-color);
+  color: #4682bb;
   text-decoration: none;
 }
 
@@ -105,6 +106,7 @@ ul li {
 
 /**** portfolio body ****/
 
+
 body {
   margin: 0;
   background-color: #151515;
@@ -123,7 +125,8 @@ header {
   background-color: lightskyblue;
   display: flex;
   align-items: center;
-  width: 125px;
+  justify-content: center;
+  width: 135px;
   height: 580px;
   position: fixed;
   left: -135px;
@@ -140,15 +143,19 @@ header {
 nav {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
 }
 
 /**** portfolio header ****/
 
 
+
+
 /**** portfolio main ****/
 
-/** hero container **/
+
+
+/**** hero container ****/
 
 #hero-container {
   display: flex;
@@ -157,13 +164,21 @@ nav {
   margin: 15px;
 }
 
+.hero-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 .hero-content h2 {
   color: #fff;
 }
 
-/** hero container **/
+/**** hero container ****/
 
-/** technical skills **/
+
+
+
+/**** technical skills ****/
 
 #technical-skills {
   margin: 0px;
@@ -192,7 +207,8 @@ nav {
   height: auto;
 }
 
-/** technical skills **/
+/**** technical skills ****/
+
 
 
 /** About Me container **/
@@ -204,7 +220,9 @@ nav {
 
 /** About Me container **/
 
-/*** projects container ***/
+
+
+/***** projects container *****/
 
 #Projects {
   display: flex;
