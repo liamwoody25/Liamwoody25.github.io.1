@@ -106,6 +106,11 @@ ul li {
 
 /**** portfolio body ****/
 
+.container {
+  max-width: 375px;
+  width: 100%;
+}
+
 
 body {
   margin: 0;
@@ -121,6 +126,7 @@ header {
   flex-direction: column;
   margin: 15px 40px;
 }
+
 .left-screen-menu {
   background-color: lightskyblue;
   display: flex;
@@ -155,13 +161,13 @@ nav {
 
 
 
-/**** hero container ****/
+/*** hero container ***/
 
 #hero-container {
   display: flex;
   text-align: center;
   justify-content: center;
-  margin: 15px;
+  margin: 0px 16px 54px;
 }
 
 .hero-content {
@@ -249,6 +255,8 @@ nav {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 
 .project-cards .project-card {
@@ -288,7 +296,6 @@ nav {
 .project-content p {
   color: #4682bb;
   padding-left: 15px;
-  padding-right: 15px;
   font-size: 13px;
   line-height: 20px;
   margin: 0;
@@ -315,6 +322,7 @@ nav {
 
 .project-img {
   object-fit: fill;
+  width: fit-content;
   width: 100%;
   border-radius: 20px;
   height: 245px;
@@ -413,9 +421,18 @@ footer {
 
 /***** portfolio footer ******/
 
-/****** media query ******/
+
+
+
+/****** media query-tablet ******/
 
 @media screen and (min-width:768px){
+
+  /***** components *****/
+
+  .ham-burger {
+    display: block;
+  }
 
   .burger-bar {
   display: none;
@@ -452,9 +469,23 @@ footer {
   top: 28px;
 }
 
+/***** components *****/
+
+
+
   h2 {
     font-size: 40px;
   }
+
+
+  /**** body ****/
+
+  .container {
+    max-width: 1440px;
+    width: 100%;
+  }
+
+/***** header *****/
 
   header {
     display: flex;
@@ -462,13 +493,36 @@ footer {
     justify-content: space-between;
   }
 
-  .nav-bar {
+  .left-screen-menu {
+    background-color: transparent;
+    position: absolute;
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
+    align-items: center;
+    justify-content: center;
+    width:  329px;
+    height: 150px;
+    left: 1000px;
+    top: -16px;
+    transition-property: left;
+    transition-duration: .9s;
+    transition-timing-function: ease-in-out;
+}
 
-  /*** hero section ***/
+.left-screen-menu.active {
+  left: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+/***** header *****/
+
+
+
+/*** hero section ***/
   
   #hero-container {
     display: flex;
@@ -489,7 +543,11 @@ footer {
     margin-top: 10px;
   }
 
-  /**** technical skills ****/
+/*** hero section ***/
+
+
+
+/**** technical skills ****/
 
   #technical-skills {
     padding: 40px;
@@ -507,6 +565,12 @@ footer {
     font-size: 40px;
   }
 
+/**** technical skills ****/
+
+
+
+/**** About Me ****/
+
   .about-me-content {
     padding: 60px;
   }
@@ -515,7 +579,12 @@ footer {
     line-height: 30px;
   }
 
-  /***** projects section *****/
+/**** About Me ****/
+
+
+
+
+/***** projects section *****/
 
   #Projects {
     padding: 50px 40px;
@@ -561,14 +630,21 @@ footer {
     display: flex;
   }
 
+/***** projects section *****/
+
+
+/**** contact section ****/
   .contact-content {
     padding: 100px;
     display: flex;
     justify-content: center;
   }
+
+/**** contact section ****/
 }
 
 
+/**** media queries desktop ****/
 
 @media screen and  (min-width:1440px) {
 
@@ -587,6 +663,13 @@ footer {
   .nav-bar {
     display: flex;
     gap: 30px;
+  }
+
+  /**** body ****/
+
+  .container {
+    max-width: 1440px;
+    width: 100%;
   }
   /*** hero-section ***/
 
