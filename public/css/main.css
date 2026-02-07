@@ -261,7 +261,7 @@ nav {
 
 .project-cards .project-card {
   border-radius: 20px;
-  width: 354px;
+  width: 100%;
   position: relative;
   overflow: hidden;
   height: auto;
@@ -431,7 +431,7 @@ footer {
   /***** components *****/
 
   .ham-burger {
-    display: block;
+    display: none;
   }
 
   .burger-bar {
@@ -501,11 +501,8 @@ footer {
     justify-content: center;
     width:  329px;
     height: 150px;
-    left: 1000px;
+    left: 400px;
     top: -16px;
-    transition-property: left;
-    transition-duration: .9s;
-    transition-timing-function: ease-in-out;
 }
 
 .left-screen-menu.active {
@@ -659,6 +656,18 @@ nav {
     flex-direction: row;
     align-items: baseline;
   }
+
+    .left-screen-menu {
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:  329px;
+    height: 150px;
+    left: 1041px;
+    top: -16px;
+}
 
   .nav-bar {
     display: flex;
