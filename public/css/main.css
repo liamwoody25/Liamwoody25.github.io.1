@@ -596,11 +596,7 @@ nav {
   }
 
   .project-cards .project-card {
-    width: 334px;
-  }
-
-  .project-card:hover .project-content {
-
+    width: 31%;
   }
 
   .project-content {
@@ -753,7 +749,7 @@ nav {
   }
 
   .project-cards .project-card {
-    width: 535px;
+    width: 38%;
     height:332px ;
     display: flex;
   }
