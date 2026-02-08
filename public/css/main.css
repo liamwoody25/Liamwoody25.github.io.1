@@ -21,6 +21,7 @@ h2 {
   color: #fff;
 }
 
+
 h3 {
   margin: 0;
   font-size: 21px;
@@ -88,12 +89,14 @@ a {
 }
 
 .project-content .link {
+  padding: 9px;
   display: flex;
-  color: #242424;
+  color: #fff;
   text-align: end;
+  background-color: #4682bb;
   justify-content: center;
-  font-size: 16px;
-  text-decoration: underline;
+  font-size: 12px;
+  border-radius: 8px;
 }
 
 ul li {
@@ -256,7 +259,7 @@ nav {
   flex-wrap: wrap;
   gap: 15px;
   margin-top: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 4px;
 }
 
 .project-cards .project-card {
@@ -285,6 +288,7 @@ nav {
   transition: 2s;
   backdrop-filter: blur(10px);
   top: 250px;
+  padding-bottom: 15px;
 }
 
 .project-content h3 {
@@ -306,6 +310,11 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.Tech h4 {
+  margin-bottom: 15px;
+  margin-top: 5px;
 }
 
 .tech-icon {
@@ -593,10 +602,11 @@ nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
   }
 
   .project-cards .project-card {
-    width: 31%;
+    width: 44%;
   }
 
   .project-content {
@@ -704,6 +714,9 @@ nav {
    /*** hero-section ***/
 
 
+
+
+
   /***** technical skills ******/
 
   #technical-skills {
@@ -722,6 +735,11 @@ nav {
     justify-content: space-evenly;
   }
 
+
+    /***** technical skills ******/
+
+
+      /***** technical skills ******/
 
   .about-me-content {
     padding:130px 100px ;
@@ -744,12 +762,12 @@ nav {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 30px;
-    justify-content: space-evenly;
+    justify-content: left;
     margin-top: 20px;
   }
 
   .project-cards .project-card {
-    width: 38%;
+    width: 31%;
     height:332px ;
     display: flex;
   }
