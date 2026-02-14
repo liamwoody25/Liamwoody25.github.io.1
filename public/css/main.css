@@ -287,8 +287,8 @@ nav {
   display: flex;
   flex-wrap: wrap;
   position:absolute;
-  transition: 2s;
-  backdrop-filter: blur(10px);
+  transition: 0.3s;
+  backdrop-filter: blur(25px);
   top: 250px;
   padding-bottom: 15px;
 }
@@ -306,6 +306,7 @@ nav {
   line-height: 20px;
   margin: 0;
   width: 100%;
+  font-weight: 800;
 }
 
 .Tech {
