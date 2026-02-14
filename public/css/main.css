@@ -110,7 +110,7 @@ ul li {
 /**** portfolio body ****/
 
 .container {
-  max-width: 375px;
+  max-width: 425px;
   width: 100%;
 }
 
@@ -366,9 +366,9 @@ nav {
 
 
 form {
-  margin-left: 80px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 10px;
 }
 
@@ -606,7 +606,7 @@ nav {
   }
 
   .project-cards .project-card {
-    width: 44%;
+    width: 48%;
   }
 
   .project-content {
@@ -649,7 +649,7 @@ nav {
 
 /**** media queries desktop ****/
 
-@media screen and  (min-width:1440px) {
+@media screen and  (min-width:1024px) {
 
   h2 {
     font-size: 55px;
@@ -671,7 +671,7 @@ nav {
     justify-content: center;
     width:  329px;
     height: 150px;
-    left: 1041px;
+    left: 645px;
     top: -16px;
 }
 
@@ -767,7 +767,7 @@ nav {
   }
 
   .project-cards .project-card {
-    width: 31%;
+    width: 48%;
     height:332px ;
     display: flex;
   }
