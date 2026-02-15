@@ -53,7 +53,7 @@ p {
   position: absolute;
   width: 60%;
   height: 5px;
-  background-color: #4682bb;
+  background-color: #fff;
   border-radius: 25px;
   left: 39px;
   bottom: 27px;
@@ -85,7 +85,7 @@ p {
 
 
 a {
-  color: #4682bb;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -132,7 +132,7 @@ header {
 }
 
 .left-screen-menu {
-  background-color: lightskyblue;
+  background-color: #4682bb;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -841,7 +841,6 @@ nav {
     text-align: center;
     margin-bottom: 20px;
   }
-
   /****** footer section ******/
   footer {
     display: flex;
