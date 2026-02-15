@@ -204,7 +204,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 50px;
 }
 
@@ -306,7 +306,7 @@ nav {
   line-height: 20px;
   margin: 0;
   width: 100%;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .Tech {
@@ -348,9 +348,6 @@ nav {
 
 /***** Contact section ******/
 
-#contact {
- 
-}
 
 .contact-content  {
   display: flex;
@@ -740,7 +737,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
 
 
