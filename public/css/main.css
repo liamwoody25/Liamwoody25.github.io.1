@@ -83,10 +83,14 @@ p {
   top: 28px;
 }
 
+.left-screen-menu a:hover {
+  transition: 0.4s;
+}
 
 a {
   color: #fff;
   text-decoration: none;
+  
 }
 
 .project-content .link {
@@ -684,7 +688,6 @@ nav {
     display: flex;
     gap: 30px;
   }
-
   /**** body ****/
 
   .container {
@@ -755,7 +758,7 @@ nav {
   }
 /****** portfolio projects ******/
   #Projects {
-    padding: 25px 100px 130px;
+    padding: 25px 80px 130px;
     display: flex;
     gap: 30px;
     justify-content: left;
