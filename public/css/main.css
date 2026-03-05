@@ -83,14 +83,15 @@ p {
   top: 28px;
 }
 
-.left-screen-menu a:hover {
-  transition: 0.4s;
-}
 
-a {
+a { 
   color: #fff;
   text-decoration: none;
-  
+  transition: 0.9s;
+}
+
+a:hover{ 
+  transform: scale(1.25);
 }
 
 .project-content .link {
@@ -153,6 +154,7 @@ header {
 .left-screen-menu.active {
   left: 0;
 }
+
 
 nav {
   display: flex;
